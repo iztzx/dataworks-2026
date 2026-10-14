@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Supplied challenge data/materials and local caches are distributed separately.
+/TestCases/
+/dwc26/
+/cache/
+
+# Local history, old reports and generated figures are not submission source.
+/outputs/*
+!/outputs/models/
+/outputs/models/*
+!/outputs/models/curve_proxy.joblib
+!/outputs/09 Template Deliverable.xlsx
+!/outputs/selected_cases.csv
+!/outputs/baseline_selected_cases.csv
+!/outputs/production_history_and_forecast.csv
+!/outputs/forecast_percentiles.csv
+!/outputs/hindcast_results.csv
+!/outputs/history_match_residuals.csv
+!/outputs/proxy_test_scores.csv
+!/outputs/business_production_summary.csv
+!/outputs/run_metadata.json
+!/outputs/verification_results.json
+
+.env
+.env.*
+*.pem
+*.key
+*.log
+.DS_Store
+Thumbs.db

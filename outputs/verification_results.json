@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "optimized_realizations": 10,
+  "quarters_per_sheet": 80,
+  "hindcast_rows": 2400,
+  "training_calibration_errors": 280,
+  "colab_configuration": "mock mount tested; no live Colab session",
+  "checks": [
+    "training-only response EDA",
+    "deterministic selection",
+    "parameter bounds",
+    "case/time separation",
+    "error correction",
+    "quarterly conservation",
+    "percentile ordering",
+    "Excel round trip",
+    "dashboard consistency",
+    "model reload"
+  ]
+}
